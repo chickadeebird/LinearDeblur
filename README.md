@@ -59,6 +59,7 @@ This is the script interface for the LinearDeblur script.
 
 <img src="./figs/LinearDeblur Script.png" text='LinearDeblur script' align=left />
 
+
 ## Manage repository location
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
