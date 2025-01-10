@@ -39,6 +39,10 @@ The algorithm steps are:
 
 This will create a separate image of stars that can be used to replace any stars that have been removed using other tools such as StarNet2. This will likely remove any small galaxies not detected by the Pixinsight star detector.
 
+# Algorithm 4 - Denoise (an out of context maching learning denoising algorithm)
+
+This is a denoising algorithm for nonlinear images. This is a test of the deblurring model to see if it can also act as a denoising model. The denoising seems to work relatively well and may find itself as part of a group of denoising models that I have implemented. This is included in this script only because the machine learning executable is the same as for the deblurring algorithms above, with the addition of the training weights (which is a relatively small file).
+
 ## Uses
 
 The script works on stars that are linearly blurred, oblong, egg-shaped, etc.
@@ -47,18 +51,18 @@ The script works on stars that are linearly blurred, oblong, egg-shaped, etc.
 
 This is a sample pair of an image taken of the Leo Triplet, 5 minutes, Luminance (left), and its repaired image (right).
 
-<img src="./figs/LinesRepaired.png" text='Repaired satellite lines (2 of them) - left original, right repaired' align=left />
+<img src="./figs/Deblurred Stars Only.png" text='Deblurred stars using the "Stars Only" script - left blurry stars, right deblurred' align=left />
 
 ## Script
 
 This is the script interface for the line repair script.
 
-<img src="./figs/LineRepairScript.png" text='Line repair script' align=left />
+<img src="./figs/LinearDeblur Script.png" text='LinearDeblur script' align=left />
 
 ## Manage repository location
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
 
-https://raw.githubusercontent.com/chickadeebird/Satellite-Line-Repair/main/
+https://raw.githubusercontent.com/chickadeebird/LinearDeblur/main/
 
 After this has been added to the repositories, Check for updates should place the new LineRepair and BatchLineRepair scripts in Scripts > ChickadeeScripts
