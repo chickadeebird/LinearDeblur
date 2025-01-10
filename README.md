@@ -59,7 +59,7 @@ This result is from using the "Stars Only" tab.
 
 This is the script interface for the LinearDeblur script.
 
-<img src="./figs/LinearDeblur Script.png" text='LinearDeblur script' align=left />
+
 
 This can be found here: ChickadeeScripts > LinearDeblur
 
