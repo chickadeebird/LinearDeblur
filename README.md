@@ -49,13 +49,13 @@ The script works on stars that are linearly blurred, oblong, egg-shaped, etc.
 
 ## Images
 
-This is a sample pair of an image taken of the Leo Triplet, 5 minutes, Luminance (left), and its repaired image (right).
+This is a sample pair of a 5 minute Luminance image with blurring (left), and its repaired/deblurred image (right).
 
 <img src="./figs/Deblurred Stars Only.png" text='Deblurred stars using the "Stars Only" script - left blurry stars, right deblurred' align=left />
 
 ## Script
 
-This is the script interface for the line repair script.
+This is the script interface for the LinearDeblur script.
 
 <img src="./figs/LinearDeblur Script.png" text='LinearDeblur script' align=left />
 
