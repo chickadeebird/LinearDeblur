@@ -53,6 +53,8 @@ This is a sample pair of a 5 minute Luminance image with blurring (left), and it
 
 <img src="./figs/Deblurred Stars Only.png" text='Deblurred stars using the "Stars Only" script - left blurry stars, right deblurred' align=left />
 
+This result is from using the "Stars Only" tab.
+
 ## Script
 
 This is the script interface for the LinearDeblur script.
