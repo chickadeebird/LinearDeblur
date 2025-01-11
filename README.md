@@ -47,7 +47,7 @@ The following image pair is a result of the denoising algorithm on 18x5min Lumin
 
 <img src="./figs/Denoising Gamma Cas.png" text='Denoised image using the Denoise script - left noisy stack of 18x5min Luminance, right denoised' align=left />
 
-This next image pair is a result of the denoising algorithm on a single Luminance frame (5min) of the Gamma Cassiopeia region. The only processing that was done is a Dynamic Background Extraction and it was saved as a float as the current implementation only denoises float images - update to follow for integer.
+This next image pair is a result of the denoising algorithm on a single Luminance frame (5min) of the Gamma Cassiopeia region. The only processing done on the single 5min image frame is a Dynamic Background Extraction and it was saved as a float as the current implementation only denoises float images - update to follow for integer.
 
 No further histogram manipulations were done after the denoising - however, the decreased noise permits further stretching and subsequent denoising passes.
 
