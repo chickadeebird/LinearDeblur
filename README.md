@@ -43,6 +43,14 @@ This will create a separate image of stars that can be used to replace any stars
 
 This is a denoising algorithm for nonlinear images. This is a test of the deblurring model to see if it can also act as a denoising model. The denoising seems to work relatively well and may find itself as part of a group of denoising models that I have implemented. This is included in this script only because the machine learning executable is the same as for the deblurring algorithms above, with the addition of the training weights (which is a relatively small file).
 
+The following image pair is a result of the denoising algorithm on 18x5min Luminance of the Gamma Cassiopeia region.
+
+<img src="./figs/Denoising Gamma Cas.png" text='Denoised image using the Denoise script - left noisy stack of 18x5min Luminance, right denoised' align=left />
+
+This next image pair is a result of the denoising algorithm on a single Luminance frame (5min) of the Gamma Cassiopeia region. The only processing that was done is a Dynamic Background Extraction and it was saved as a float as the current implementation only denoises float images - update to follow.
+
+<img src="./figs/Denoising Gamma Cas single.png" text='Denoised image using the Denoise script - left noisy stack of 18x5min Luminance, right denoised' align=left />
+
 ## Uses
 
 The script works on stars that are linearly blurred, oblong, egg-shaped, etc.
