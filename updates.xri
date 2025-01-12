@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+		First release of Linear Deblur Script from chickadeebird, with additional denoise script added.
+      </p>
+      <p>
+      The scripts have been written by Chick Dee (alias chickadeebird).
+      Feedback can be provided on the PixInsight forums.
+      </p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9:2.0.0">
+      <package fileName="LinearDeblurv1.0.0beta.zip" sha1="9c32ed0762f22dbdfcfe517b8f99a7bf0a94dd06" type="script" releaseDate="20250111">
+         <title>
+            Script for LinearDeblur - Linear Deblur Script.
+         </title>
+         <description>
+            <p>
+               Script for deblurring stars that have elongated, usually due to suboptimal guiding. <br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
