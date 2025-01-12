@@ -87,6 +87,6 @@ After this has been added to the repositories, Check for updates should place th
 
 The Linear Deblur script calls an executable file that is a machine learning program trained for the deblurring and denoising functions for the script. The executable can be downloaded via the following link:
 
-https://drive.google.com/file/d/1Lp4tsQFI-krv03-95IWe_Ng0kQ2nloCw/view?usp=sharing
+https://drive.google.com/file/d/1MjXowmiCtcMl129XYs_Du68cEyjhegv3/view?usp=sharing
 
 Place the zip file in a location on your computer and unzip the contents. Start the LinearDeblur script in Pixinsight under the Scripts > ChickadeeScripts location. Click on the wrench at the bottom left of the LinearDeblur dialog box and then move to the location where the executable files have been unzippped. The enables the LinearDeblur script to find the executable in the correct location.
