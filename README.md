@@ -82,3 +82,9 @@ In order to automatically install and subsequently refresh script updates in Pix
 https://raw.githubusercontent.com/chickadeebird/LinearDeblur/main/
 
 After this has been added to the repositories, Check for updates should place the new LineRepair and BatchLineRepair scripts in Scripts > ChickadeeScripts
+
+## Machine learning files location
+
+
+
+https://drive.google.com/file/d/1Lp4tsQFI-krv03-95IWe_Ng0kQ2nloCw/view?usp=sharing
