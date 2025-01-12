@@ -57,6 +57,8 @@ No further histogram manipulations were done after the denoising - however, the 
 
 The script works on stars that are linearly blurred, oblong, egg-shaped, etc.
 
+It currently is only implemented on the Windows platform, but I would be pleased to implement it on other platforms if someone is willing to help me. I have no access to Linux- or Mac-based machines at present.
+
 ## Images
 
 This is a sample pair of a 5 minute Luminance image with blurring (left), and its repaired/deblurred image (right).
@@ -71,8 +73,6 @@ This is the script interface for the LinearDeblur script.
 
 <img src="./figs/LinearDeblur Script.png" text='LinearDeblur script' align=left />
 
-
-
 This can be found here: ChickadeeScripts > LinearDeblur
 
 ## Manage repository location
@@ -85,6 +85,8 @@ After this has been added to the repositories, Check for updates should place th
 
 ## Machine learning files location
 
-
+The Linear Deblur script calls an executable file that is a machine learning program trained for the deblurring and denoising functions for the script. The executable can be downloaded via the following link:
 
 https://drive.google.com/file/d/1Lp4tsQFI-krv03-95IWe_Ng0kQ2nloCw/view?usp=sharing
+
+Place the zip file in a location on your computer and unzip the contents. Start the LinearDeblur script in Pixinsight under the Scripts > ChickadeeScripts location. Click on the wrench at the bottom left of the LinearDeblur dialog box and then move to the location where the executable files have been unzippped. The enables the LinearDeblur script to find the executable in the correct location.
