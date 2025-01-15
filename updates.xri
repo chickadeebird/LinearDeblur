@@ -10,7 +10,7 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
-      <package fileName="LinearDeblurv1.0.8beta.zip" sha1="548656be782350f4e1809b05736b4a454cf7c18b" type="script" releaseDate="20250114">
+      <package fileName="LinearDeblurv1.0.9beta.zip" sha1="a50452643a887e58fe00dc7ee9e9cccd155c48fe" type="script" releaseDate="20250114">
          <title>
             Script for LinearDeblur - Linear Deblur Script.
          </title>
